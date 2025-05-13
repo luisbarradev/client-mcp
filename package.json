@@ -1,0 +1,25 @@
+{
+  "name": "client-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod 755 src/index.ts"
+  },
+  "keywords": [],
+  "author": "Luis Francisco Barra Sandoval",
+  "license": "MIT",
+  "description": "MCP WHATSAPP",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.50.3",
+    "@modelcontextprotocol/sdk": "^1.11.1",
+    "baileys": "^6.7.16",
+    "dotenv": "^16.5.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@types/qrcode-terminal": "^0.12.2",
+    "typescript": "^5.8.3"
+  }
+}
